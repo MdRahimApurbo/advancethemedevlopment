@@ -6,6 +6,17 @@
  * @package Aquila
  */
 
+/**
+ * Table of Contents:
+ * 1.0 - Enqueue Parent and Child Theme Styles
+ * 2.0 - Theme Support
+ */
+
+if (!defined('AQUILA_DIR_PATH')) {
+    define('AQUILA_DIR_PATH', untrailingslashit(get_template_directory()));
+}
+
+require_once AQUILA_DIR_PATH . '/inc/helpers/autoloader.php';
 
 function aquila_enqueue_scripts()
 {

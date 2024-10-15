@@ -6,7 +6,7 @@
  * @package Aquila
  */
 
-namespace Advance_Theme_Devlopment\Inc\Helpers;
+namespace AQUILA_THEME\Inc\Helpers;
 
 /**
  * Auto loader function.
@@ -84,4 +84,4 @@ function autoloader($resource = '')
     }
 }
 
-spl_autoload_register('\AQUILA_THEME\Inc\Helpers\autoloader');
+spl_autoload_register('\AQUILA_THEME\Inc\Helpers\Autoloader');

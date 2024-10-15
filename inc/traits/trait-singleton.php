@@ -26,7 +26,7 @@
  * @package Aquila
  */
 
-namespace Advance_Theme_Devlopment\Inc\Traits;
+namespace AQUILA_THEME\Inc\Traits;
 
 trait Singleton
 {
